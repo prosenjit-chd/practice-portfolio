@@ -22,9 +22,7 @@ nav{
     color: #5C76C3;
     font-weight: bold;
 }
-.social-media{
-    margin-top: 125px;
-}
+
 .name-font{
     font-family: 'Yellowtail', cursive;
     color: #5DB3EE;
@@ -35,7 +33,7 @@ nav{
 .home-myname{
     color: #5C76C3;
 }
-.home a {
+.home button {
     background-color: #5C76C3;
 
 }
