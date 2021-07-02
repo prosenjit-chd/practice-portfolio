@@ -5,57 +5,69 @@
     <!-- front awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 	<!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <link rel = "icon" href = 
     "https://icon-library.com/images/uppercase-latin-letter-round-p-keyboard-2-512.png" 
             type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="container">
 
-        <header class="bg-light" >
+        <header class="bg-light mg-5" >
             <!-- ************* Start of Nav Bar*************** -->
-            <nav>
-                <div class="row">
-
-                    <div class="col-lg-5 m-auto">
-                        <h1 class=" name-font  text-primary text-left mb-0 py-2 font-italic ">Prosenjit</h1>
-        
-                    </div>
-        
-                    <div class="col-lg-7">
-                        <ul class="nav justify-content-center py-3"> 
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> Home </a></li>
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> About </a></li>
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> Education </a></li>
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> Skills </a></li>
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> Projects </a></li>
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> Achivements </a></li>
-                            <li class="nav-item">  <a class="my-link-style text-dark nav-link" href="#"> Contact </a></li>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+                <div class="container">
+                    <a class="navbar-brand name-font" href="#home">Prosenjit</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#skill">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#project">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#achievement">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contact">Achivements</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                            </li>
                         </ul>
-                        
                     </div>
                 </div>
-
             </nav>
             <!-- ************* End of Nav Bar*************** -->
         </header>
 
 
-        <main>
+        <main class=" mt-5">
            <!-- *********** Start of Home Area*********** -->
 
-            <section class="row bg-white pt-5">
-                    <div class="col-lg-7 text-center mt-5">
-                        <h1>Hello,<br class="text-black">I'am <span class="text-primary">Prosenjit</span><br>Software Developer</h1>
-                        <button class=" btn btn btn-primary mb-2 btn-lg">Contact</button>
+            <section class="home row bg-white">
+                    <div class="home-note col-lg-7">
+                        <h1>Hello,<br class="text-black">I'am <span class="home-myname">Prosenjit</span><br>Software Engineer</h1>
+                        <button class=" btn btn-primary mb-2 btn-lg">Contact</button>
                     </div>
 
                     <div class="home__img col-lg-5">    
-                        <img class="img-fluid rounded-circle " height="400" src="assets/img/prosenjit_blue.jpg" alt="">
+                        <img class="img-fluid" height="400" src="assets/img/white_main.jpg" alt="">
                     </div>
             </section>
             <!-- *********** End of Home Area*********** -->
@@ -64,33 +76,48 @@
 
             <!-- **********Start of About Me section********* -->
 
-            <div class="about-section mt-5 bg-danger">
+            <div class="about">
 
                     <div class="jumbotron pt-4">
                             <div class="title text-center mb-3">
-                                <h3 class="font-weight-bolder text-primary">About Me</h3>
+                                <h3 class="font-weight-bolder mb-5 ">About Me</h3>
                             </div>
                                 
                             <div class="row">
-                                    <div class="col-lg-6 text-center">
-                                        <img class="rounded"  height="350" src="assets/img/IMG_0020.JPG" alt="">
+                                    <div class="col-lg-6 text-center mt-2">
+                                        <img class="rounded"  height="450" src="assets/img/about.jpg" alt="">
                                     </div>
 
                                     <div class="col-lg-6">
-                                            <p> I am Prosenjit Chowdhury. I am complete my graduation from department of the Computing and Information System at Daffodil International University.
-                                                I have completed Advance Diploma in Computing from the University of Greenwich, UK through NCC education.
-                                                I am capable to lead a team as well as establish strong communication among them.
-                                                I love to work with Java, Python, C.
-                                                I have knowledge about Network Security, Agile Development, Web Development, and System Analysis and Design.
-                                                Patency is my strength that’s how I am able to achieve my goal and it helps me to be confident in any situation.
-                                                I have got scholarships several times from Daffodil International University for my academic result and well manner. I have participated in several programming competitions.
-                                                That's all about myself and my profession. Hope you will give me an opportunity to increase your organization's success and growth.</p>
+                                           <div>
+                                                    <p> 
+                                                        Hello, <br>I completed my graduation from the <strong>Daffodil International University</strong> with a <strong>Bachelor of Computing and Information System.</strong> 
+                                                        I have hands-on professionalism in designing software applications that meet the technical requirements and functionality of the clients.
+                                                        I can also make configuration changes, write codes to match the functions specified by the senior programmer and execute tests to ensure functionality.
+                                                        I have the ability to work under pressure and meet tight deadlines while maintaining a friendly and positive attitude.
+                                                    </p>
+                                                    <hr>
+                                                    <p>
+                                                        <b>Name: </b> Prosenjit Chowdhury
+                                                    </p>
+                                                    <hr>
+                                                    <p>
+                                                        <b>Degree: </b> BSc in Computing & Information System
+                                                    </p>
+                                                    <hr>
+                                                    <p>
+                                                        <b>Gender: </b> Male
+                                                    </p>
+                                                    <hr>
+                                                    <p>
+                                                        <b>Nationality: : </b> Bangladeshi
+                                                    </p>
+                                                    <hr>
+                                           </div>
 
 
                                             <div class="btn-group">
-
-                                                <button class=" btn-block btn btn-outline-primary mb-3 btn-lg">CV Download</button>
-
+                                                <button class=" btn btn-primary mb-2 btn-lg">  <i class="fas fa-file-download"></i> CV Download</button>
                                             </div>
 
                                     </div>
@@ -108,39 +135,59 @@
             <!-- ********Education Section Start***** -->
 
 
-            <div class="bg-info p-5">
-                    <h2 class=""></i>Education</h2>
-                    <div>
-                        <h5><b>BSc in Computing & Information System (CGPA:3.81/4)</b></h5>
-                        <h6 ><i class=""></i>Passing Year: 2021</h6>
-                        <p>Daffodil International University</p>
-                        <hr>
+            <div class="bg-light p-5">
+                    <h3 class="text-center pb-4"></i>Education</h3>
+
+                    <div class="card edcation-card shadow row">
+                        <div class="col-lg-2 text-center pt-4">
+                            <i class="fas fa-5x fa-user-graduate"></i>
+                        </div>
+                        <div class="col-lg-10 pt-4"> 
+                            <h5 class=""><b>BSc in Computing & Information System (CGPA:3.81/4</b></h5>
+                            <h6 class=""><i class=""></i>Passing Year: 2021</h6>
+                            <p>Daffodil International University</p><br>
+                        </div>
                     </div>
 
-                    <div>
-                        <h5 class=""><b>Advance Diploma in Computing (62%, Merit)</b></h5>
-                        <h6 class=""><i class=""></i>Passing Year: 2018</h6>
-                        <p>National Computing Center(NCC), UK </p>
-                        <p>Degree completed through the British Council</p>
-                        <hr>
+                    <div class="card edcation-card shadow row">
+                        <div class="col-lg-2 text-center pt-4" >
+                            <i class="fas fa-5x fa-university"></i>
+                        </div>
+                        <div class="col-lg-10 pt-4">
+                            <h5 class=""><b>Advance Diploma in Computing (62%, Merit)</b></h5>
+                            <h6 class=""><i class=""></i>Passing Year: 2018</h6>
+                            <p>National Computing Center(NCC), UK <br> Degree completed through the British Council </p>
+                        </div> 
                     </div>
 
-                    <div class="">
-                        <h5 class=""><b>Higher Secondary Certificate (Science)  (GPA: 4.08/5.00)</b></h5>
-                        <h6 class=""><i class=""></i>Passing Year: 2015</h6>
-                        <p>Alamdanga College</p><br>
+                    <div class="card edcation-card shadow row">
+                        <div class="col-lg-2 text-center pt-4">
+                            <i class="fas fa-4x fa-school"></i>
+                        </div>
+                        <div class="col-lg-10 pt-4"> 
+                            <h5 class=""><b>Higher Secondary Certificate (Science)  (GPA: 4.08/5.00)</b></h5>
+                            <h6 class=""><i class=""></i>Passing Year: 2015</h6>
+                            <p>Alamdanga College</p><br>
+                        </div>
                     </div>
 
-                    <div class="">
-                        <h5 class=""><b>Secondary School Certificate (Science)  (GPA: 4.94/5.00)</b></h5>
-                        <h6 class=""><i class=""></i>Passing Year: 2013</h6>
-                        <p>Alamdanga High School</p><br>
+                    <div class="card edcation-card shadow row">
+                        <div class="col-lg-2 text-center pt-4">
+                            <i class="fas fa-4x fa-school"></i>
+                        </div>
+                        <div class="col-lg-10 pt-4"> 
+                            <h5 class=""><b>Secondary School Certificate (Science)  (GPA: 4.94/5.00)</b></h5>
+                            <h6 class=""><i class=""></i>Passing Year: 2013</h6>
+                            <p>Alamdanga High School</p><br>
+                        </div>
                     </div>
 
-                    <div class="">
+                    <div class="card edcation-video shadow">
                         <div class="row">
-                            <div class="col-lg-4">
-                                <img class="rounded-circle m-4"  height="180"  src="img/video resume.png" alt="">
+                            <div class="video-section col-lg-4">
+                                <div class="video-text">
+                                    <p>Video Resume</p>
+                                </div>
                             </div>
                             <div class="col-lg-8">
                                 <iframe width="600" height="350" src="https://www.youtube.com/embed/1JpIdUxAg7M">
@@ -508,8 +555,7 @@
 
      <!-- Java script -->
 	<!-- bootstrap js, jquery, popper -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>

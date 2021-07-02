@@ -1,8 +1,71 @@
-.babu{
-    background-color: aqua;
-    color: brown;
-    
+body{
+    font-family: sans-serif;
+}
+nav{
+    padding: 1%;
+    height: 50px;
+    position: fixed;
+}
+.navbar-light .navbar-brand{
+    color: #5C76C3;
+    font-size: 30px;
 }
 .name-font{
     font-family: 'Yellowtail', cursive;
+    color: #5DB3EE;
 }
+.home{
+    margin-top: 10%;
+}
+.home-myname{
+    color: #5C76C3;
+}
+.home button {
+    background-color: #5C76C3;
+
+}
+.home-note{
+    text-align: center;
+    padding-top: 12%;
+}
+.about{
+    background-color: #5C76C3;
+    margin: 15px;
+    color: white;
+    text-align: justify;
+    padding: 5% 5%;
+}
+.edcation-card{
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    height: 200px;
+
+}
+.edcation-video{
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    height: 400px;
+}
+.video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-text{
+    height: 150px;
+    width: 150px;
+    background-color: #5C76C3;
+    border-radius: 50%;
+
+
+}
+.video-text > p{
+    font-size: 2rem;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
